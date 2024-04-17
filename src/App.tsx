@@ -4,7 +4,7 @@ import styles from './App.module.css'
 const App = () => {
 	return (
 		<div className={styles.wrapper_app}>
-			<h1>START</h1>
+			<h1 className={styles.heading}>START</h1>
 		</div>
 	)
 }

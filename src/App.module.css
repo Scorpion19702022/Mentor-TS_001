@@ -47,3 +47,7 @@
 	align-items: center;
 	background-color: var(--color-dark07);
 }
+
+.heading {
+	color: var(--color-blue04);
+}
