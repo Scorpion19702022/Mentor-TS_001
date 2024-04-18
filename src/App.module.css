@@ -58,5 +58,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: var(--color-blue07);
+	background-color: var(--color-dark06);
+	border: 0.04em solid var(--color-blue05);
 }

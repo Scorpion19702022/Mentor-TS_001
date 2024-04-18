@@ -49,6 +49,7 @@
 	border-bottom: 0.04em solid var(--color-blue03);
 	font-size: 1.6em;
 	color: var(--color-blue01);
+	outline: none;
 }
 
 .box_btns {
@@ -60,4 +61,21 @@
 .btn {
 	width: 30%;
 	padding: 0.6em;
+	background: none;
+	border: 0.04em solid var(--color-blue05);
+	color: var(--color-blue03);
+	cursor: pointer;
+	border-bottom-right-radius: 25px;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:nth-last-child(1) {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 25px;
+}
+
+.btn:hover {
+	background-color: var(--color-blue05);
+	color: var(--color-blue07);
+	box-shadow: 0.2em 0.2em 0.8em var(--color-blue05);
 }
