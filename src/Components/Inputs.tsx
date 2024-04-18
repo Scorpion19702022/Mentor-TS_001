@@ -36,10 +36,10 @@ const Inputs: React.FC<inputProps> = ({ saveResult, clenResult }) => {
 
 	return (
 		<div className={styles.wrapper_inputs}>
-			<label>Podaj wzrost:</label>
-			<input type='number' onChange={handleChangeTall} value={tall} />
-			<label>Podaj wagę</label>
-			<input type='number' onChange={handleChangeWeight} value={weight} />
+			<label className={styles.label}>Podaj wzrost:</label>
+			<input className={styles.input} type='number' onChange={handleChangeTall} value={tall} />
+			<label className={styles.label}>Podaj wagę</label>
+			<input className={styles.input} type='number' onChange={handleChangeWeight} value={weight} />
 			<div className={styles.box_btns}>
 				<button onClick={handleResultBmi}>Sprawdź</button>
 				<button onClick={() => clenResult()}>Wyczyść</button>

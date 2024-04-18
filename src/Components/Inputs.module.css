@@ -31,17 +31,18 @@
 }
 
 .wrapper_inputs {
+	width: 100%;
 	padding: 1.2em;
 	display: flex;
 	flex-direction: column;
 }
 
-label {
+.label {
 	color: var(--color-blue03);
 	margin: 1em 0em 0.2em 0em;
 }
 
-input {
+.input {
 	padding: 0.4em;
 }
 
