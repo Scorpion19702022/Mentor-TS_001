@@ -44,6 +44,11 @@
 
 .input {
 	padding: 0.4em;
+	background: none;
+	border: none;
+	border-bottom: 0.04em solid var(--color-blue03);
+	font-size: 1.6em;
+	color: var(--color-blue01);
 }
 
 .box_btns {
