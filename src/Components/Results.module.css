@@ -41,3 +41,12 @@
 	border: 0.08em solid var(--color-dark02);
 	box-shadow: 0.4em 0.4em 1em var(--color-dark08);
 }
+
+.heading_result {
+	font-size: 2.8em;
+	color: var(--color-blue05);
+}
+
+.span_result {
+	color: var(--color-blue02);
+}
