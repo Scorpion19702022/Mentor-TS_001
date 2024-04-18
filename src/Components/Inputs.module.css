@@ -1,11 +1,3 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
 :root {
 	--color-yellow01: #fefde5;
 	--color-yellow02: #fef899;
@@ -38,25 +30,23 @@
 	--color-dark08: #000000;
 }
 
-.wrapper_app {
-	width: 100%;
-	height: 100vh;
+.wrapper_inputs {
+	padding: 1.2em;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--color-dark07);
 }
 
-.heading {
-	color: var(--color-blue04);
+label {
+	color: var(--color-blue03);
+	margin: 1em 0em 0.2em 0em;
 }
 
-.wrapper_bmi {
-	width: 70%;
-	height: 700px;
+input {
+	padding: 0.4em;
+}
+
+.box_btns {
+	margin-top: 1em;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: var(--color-blue07);
+	justify-content: space-between;
 }
