@@ -29,3 +29,15 @@
 	--color-dark07: #111210;
 	--color-dark08: #000000;
 }
+
+.box_result {
+	width: 70%;
+	height: 300px;
+	padding: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-dark07);
+	border: 0.08em solid var(--color-dark02);
+	box-shadow: 0.4em 0.4em 1em var(--color-dark08);
+}
