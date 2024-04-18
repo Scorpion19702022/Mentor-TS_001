@@ -41,8 +41,12 @@ const Inputs: React.FC<inputProps> = ({ saveResult, clenResult }) => {
 			<label className={styles.label}>Podaj wagę</label>
 			<input className={styles.input} type='number' onChange={handleChangeWeight} value={weight} />
 			<div className={styles.box_btns}>
-				<button onClick={handleResultBmi}>Sprawdź</button>
-				<button onClick={() => clenResult()}>Wyczyść</button>
+				<button className={styles.btn} onClick={handleResultBmi}>
+					Sprawdź
+				</button>
+				<button className={styles.btn} onClick={() => clenResult()}>
+					Wyczyść
+				</button>
 			</div>
 		</div>
 	)
